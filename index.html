@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Hello this is my first web page!." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=".dist/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Netflix</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__brand">
+                <img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="logo" class="brand__logo" />
+            </div>
+            <div class="navbar__nav__items">
+                <div class="nav__item">
+                    <div class="dropdown__container">
+                        <i class="fa-solid fa-globe"></i>
+                        <select name="languages" id="languagesSelect" class="language__drop__down">
+                        <option value="english" selected>English</option>
+                        <option value="hindi">Hindi</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="nav__item">
+                    <button class="signin__button">Sign in</button>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__bg__image__container">
+                <img src="https://assets.nflxext.com/ffe/siteui/vlv3/25badb14-858b-4b1c-8b7d-2244098454d9/8d71df14-14bd-4ebd-a702-02ff96af616b/LK-en-20220606-popsignuptwoweeks-perspective_alpha_website_large.jpg" alt="BG hero image" class="hero__bg__image" />
+            </div>
+        </section>
+    </main>
+    <script src=".dist/index.js"></script>
+
+
+</body>
+
+</html>
